@@ -69,6 +69,34 @@
 # birth_year = int(input("When were you born?"))
 # print(f"Ваш возраст: {2026 - birth_year}")
 
+#? 7task
+
+# num = int(input("Введите число: "))
+# number = int(input("Введите еще одно число: "))
+
+# print("Сумма:", num + number)
+# print("разность", num - number)
+# print("произведение", num * number)
+# print("частное", num / number)
+
+#! 8task
+
+# age = int(input("Введите ваш возраст: "))
+
+# if age >= 18:
+#     print("Доступ разрешён")
+# else:
+#     print("Доступ запрещён")
+
+#! 9task
+
+# number = int(input("Введите число: "))
+
+# if number % 2 == 0:
+#     print("Четное число")
+# else:
+#     print("Нечетное число")
+
 
 #! 10task
 
@@ -93,4 +121,27 @@
 
 #! 12task
 
-number = int(input("Введите число: "))
+# number = int(input("Введите число: "))
+
+# if number % 3 == 0 and number % 5 == 0:
+#     print("FizzBuzz")
+# else:
+#     print("Не FizzBuzz")
+
+#! challenge
+
+# number = int(input("Введите число: "))
+
+# if number % 3 == 0 and number % 5 == 0:
+#     print("FizzBuzz")
+# elif number % 3 == 0:
+#     print("Fizz")
+# elif number % 5 == 0:
+#     print("Buzz")
+# else:
+#     print(number)
+
+#! for цикл
+
+for i in range(10):
+    print(i)
