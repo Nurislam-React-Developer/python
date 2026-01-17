@@ -187,13 +187,47 @@
 
 #! Спроси число
 
-n = int(input("число: "))
+# n = int(input("число: "))
 
-fact = 1
+# fact = 1
 
-for index in range(1, n + 1):
-    fact *= index
+# for index in range(1, n + 1):
+#     fact *= index
 
-print(fact)
+# print(fact)
 
+#! Создание список products из 5 товаров
 
+# products = ["Молоко", "Хлеб", "Яйца", "Мясо", "Рис"]
+
+# for item in products:
+#     print("Product: ", item)
+
+#? Выведи товары с нумерацией, начиная с 1:
+
+# products = ["Молоко", "Хлеб", "Яйца", "Мясо", "Рис"]
+
+# for index in range(len(products)):
+#     print(f"{index + 1}. {products[index]}")
+
+#! Есть список цен:
+
+# prices = [100, 250, 80, 320, 150]
+
+# total = 0
+
+# for price in prices:
+#     total += price
+
+# print(total)
+
+#! Задача 4 (как map в JS, но через for)
+
+# prices = [100, 250, 80]
+
+# new_prices = []
+
+# for price in prices:
+#     new_prices.append(price + 20)
+
+# print(new_prices)
