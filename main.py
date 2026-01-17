@@ -161,9 +161,39 @@
 
 #? Посчитай сумму чисел от 1 до 100
 
-total = 0
+# total = 0
 
-for index in range(1, 101):
-    total += index
+# for index in range(1, 101):
+#     total += index
 
-print("Сумма чисел от 1 до 100:", total)
+# print("Сумма чисел от 1 до 100:", total)
+
+#? Спроси число n
+
+# n = int(input("Введите число n: "))
+
+# total = 0
+
+# for index in range(1, n + 1):
+#     if index % 2 == 0:
+#         total += index
+
+# print("Сумма четных чисел от 1 до", n, "равна:", total)
+
+#? Выведи таблицу умножения на 5
+
+# for index in range(1, 11):
+#     print("6 x", index, "=", 6 * index)
+
+#! Спроси число
+
+n = int(input("число: "))
+
+fact = 1
+
+for index in range(1, n + 1):
+    fact *= index
+
+print(fact)
+
+
