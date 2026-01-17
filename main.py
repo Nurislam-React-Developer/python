@@ -143,5 +143,27 @@
 
 #! for цикл
 
-for i in range(10):
-    print(i)
+# for i in range(1, 11):
+#     print(i)
+
+#! четные числа от 1 до 20
+
+# for i in range(1, 21):
+#     if i % 2 == 0:
+#         print(i)
+
+#? Спроси число n
+
+# n = int(input("Введите число n: "))
+
+# for index in range(1, n + 1):
+#     print(index)
+
+#? Посчитай сумму чисел от 1 до 100
+
+total = 0
+
+for index in range(1, 101):
+    total += index
+
+print("Сумма чисел от 1 до 100:", total)
