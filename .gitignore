@@ -1,2 +1,3 @@
-pentest.py
-animego.py
+.env
+__pycache__/
+*.pyc
